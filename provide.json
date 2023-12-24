@@ -1,0 +1,37 @@
+{
+  "resourceType": "Practitioner",
+  "id": "9876543",
+  "name": [
+    {
+      "given": ["Jane"],
+      "family": "Smith"
+    }
+  ],
+  "qualification": [
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "225464003",
+            "display": "Physician"
+          }
+        ]
+      }
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "(555) 555-2323",
+      "use": "work"
+    }
+  ],
+  "practitionerRole": [
+    {
+      "managingOrganization": {
+        "reference": "Organization/1"
+      }
+    }
+  ]
+}
